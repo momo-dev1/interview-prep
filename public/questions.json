@@ -88,7 +88,7 @@
         "correctAnswer": 0,
         "explanation": "The DOM (Document Object Model) is a programming interface for web documents. It represents the structure of a document and allows programs to manipulate the document’s structure, style, and content.",
         "difficulty": "medium",
-        "topic": "DOM Manipulation",
+        "topic": "Event Handling",
         "estimatedTime": "3 minutes",
         "importance": "core",
         "references": [
@@ -201,7 +201,14 @@
             "`obj.someprop.x` and `obj?.someprop?.x` are identical."
         ],
         "correctAnswer": 2,
-        "explanation": "The `obj.someprop.x` syntax throws an error if `someprop` is not defined in the `obj` object, whereas `obj?.someprop?.x` syntax checks if `obj` and `someprop` are defined before trying to access `x`, and if either is undefined, it returns `undefined` without throwing an error."
+        "explanation": "The `obj.someprop.x` syntax throws an error if `someprop` is not defined in the `obj` object, whereas `obj?.someprop?.x` syntax checks if `obj` and `someprop` are defined before trying to access `x`, and if either is undefined, it returns `undefined` without throwing an error.",
+        "difficulty": "medium",
+        "topic": "Functions",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining"
+        ]
     },
     {
         "id": 12,
@@ -213,7 +220,14 @@
             "Using the `constant` keyword"
         ],
         "correctAnswer": 2,
-        "explanation": "You declare a constant variable using the `const` keyword in JavaScript. Once assigned, the value of a constant cannot be changed or reassigned."
+        "explanation": "You declare a constant variable using the `const` keyword in JavaScript. Once assigned, the value of a constant cannot be changed or reassigned.",
+        "difficulty": "easy",
+        "topic": "JavaScript Basics",
+        "estimatedTime": "2 minutes",
+        "importance": "fundamental",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const"
+        ]
     },
     {
         "id": 13,
@@ -225,7 +239,14 @@
             "To check if a variable is null"
         ],
         "correctAnswer": 0,
-        "explanation": "The `typeof` operator is used to determine the data type of its operand. It returns a string indicating the type of the unevaluated operand."
+        "explanation": "The `typeof` operator is used to determine the data type of its operand. It returns a string indicating the type of the unevaluated operand.",
+        "difficulty": "easy",
+        "topic": "JavaScript Basics",
+        "estimatedTime": "2 minutes",
+        "importance": "fundamental",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
+        ]
     },
     {
         "id": 14,
@@ -237,7 +258,14 @@
             "Function expressions are always named."
         ],
         "correctAnswer": 1,
-        "explanation": "Function expressions in JavaScript involve defining a function as part of an expression, typically by assigning it to a variable. These functions can be anonymous or named and can be passed as arguments to other functions."
+        "explanation": "Function expressions in JavaScript involve defining a function as part of an expression, typically by assigning it to a variable. These functions can be anonymous or named and can be passed as arguments to other functions.",
+        "difficulty": "medium",
+        "topic": "Functions",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function"
+        ]
     },
     {
         "id": 15,
@@ -249,7 +277,15 @@
             "`let` and `var` are identical."
         ],
         "correctAnswer": 2,
-        "explanation": "Both `let` and `var` are used for variable declaration in JavaScript, but `let` has block scope while `var` has function scope. Variables declared with `let` are only accessible within the block they are defined in, while variables declared with `var` are accessible throughout the function they are defined in."
+        "explanation": "Both `let` and `var` are used for variable declaration in JavaScript, but `let` has block scope while `var` has function scope. Variables declared with `let` are only accessible within the block they are defined in, while variables declared with `var` are accessible throughout the function they are defined in.",
+        "difficulty": "medium",
+        "topic": "JavaScript Basics",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var"
+        ]
     },
     {
         "id": 16,
@@ -261,7 +297,14 @@
             "To reduce an array to a single value"
         ],
         "correctAnswer": 2,
-        "explanation": "The `Array.map()` method in JavaScript is used to iterate over an array and perform a specified operation on each element, returning a new array containing the results of the operation."
+        "explanation": "The `Array.map()` method in JavaScript is used to iterate over an array and perform a specified operation on each element, returning a new array containing the results of the operation.",
+        "difficulty": "medium",
+        "topic": "Array Methods",
+        "estimatedTime": "4 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
+        ]
     },
     {
         "id": 17,
@@ -273,7 +316,14 @@
             "By logging errors to the console"
         ],
         "correctAnswer": 0,
-        "explanation": "Errors in JavaScript can be handled using `try...catch` blocks, where code that might throw an error is placed inside the `try` block, and any errors are caught and handled in the `catch` block."
+        "explanation": "Errors in JavaScript can be handled using `try...catch` blocks, where code that might throw an error is placed inside the `try` block, and any errors are caught and handled in the `catch` block.",
+        "difficulty": "medium",
+        "topic": "Error Handling",
+        "estimatedTime": "4 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch"
+        ]
     },
     {
         "id": 18,
@@ -285,7 +335,14 @@
             "A function that always returns a value"
         ],
         "correctAnswer": 2,
-        "explanation": "A callback function in JavaScript is a function that is passed as an argument to another function and is executed after a particular event or operation has occurred."
+        "explanation": "A callback function in JavaScript is a function that is passed as an argument to another function and is executed after a particular event or operation has occurred.",
+        "difficulty": "medium",
+        "topic": "Functions",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Glossary/Callback_function"
+        ]
     },
     {
         "id": 19,
@@ -297,7 +354,14 @@
             "Promises are used to define variables"
         ],
         "correctAnswer": 1,
-        "explanation": "Promises in JavaScript are objects representing the eventual completion or failure of an asynchronous operation. They allow asynchronous code to be written in a more synchronous-like fashion, making it easier to manage."
+        "explanation": "Promises in JavaScript are objects representing the eventual completion or failure of an asynchronous operation. They allow asynchronous code to be written in a more synchronous-like fashion, making it easier to manage.",
+        "difficulty": "hard",
+        "topic": "Asynchronous Programming",
+        "estimatedTime": "5 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+        ]
     },
     {
         "id": 20,
@@ -309,7 +373,14 @@
             "Creating custom events for a parent element"
         ],
         "correctAnswer": 1,
-        "explanation": "Event delegation in JavaScript involves attaching a single event listener to a parent element, rather than individual event listeners to each child element. This allows dynamically added child elements to also respond to the event without needing separate event handlers."
+        "explanation": "Event delegation in JavaScript involves attaching a single event listener to a parent element, rather than individual event listeners to each child element. This allows dynamically added child elements to also respond to the event without needing separate event handlers.",
+        "difficulty": "medium",
+        "topic": "Event Handling",
+        "estimatedTime": "4 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_delegation"
+        ]
     },
     {
         "id": 21,
@@ -321,7 +392,14 @@
             "Values that are numbers and strings"
         ],
         "correctAnswer": 1,
-        "explanation": "Falsy values in JavaScript are values which, when converted to a boolean, will become false. They are: 0, null, undefined, NaN, false, '' (empty string), and -0."
+        "explanation": "Falsy values in JavaScript are values which, when converted to a boolean, will become false. They are: 0, null, undefined, NaN, false, '' (empty string), and -0.",
+        "difficulty": "easy",
+        "topic": "JavaScript Basics",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Glossary/Falsy"
+        ]
     },
     {
         "id": 22,
@@ -333,7 +411,14 @@
             "By using the `isFalsy()` function"
         ],
         "correctAnswer": 2,
-        "explanation": "You can check if a value is falsy by using an if statement. If the value is falsy, the if statement will evaluate to false."
+        "explanation": "You can check if a value is falsy by using an if statement. If the value is falsy, the if statement will evaluate to false.",
+        "difficulty": "easy",
+        "topic": "JavaScript Basics",
+        "estimatedTime": "2 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else"
+        ]
     },
     {
         "id": 23,
@@ -345,7 +430,14 @@
             "Defines a strict variable type"
         ],
         "correctAnswer": 0,
-        "explanation": "'use strict' is a directive that enables strict mode in JavaScript. In strict mode, you cannot, for example, use undeclared variables."
+        "explanation": "'use strict' is a directive that enables strict mode in JavaScript. In strict mode, you cannot, for example, use undeclared variables.",
+        "difficulty": "medium",
+        "topic": "Strict Mode",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode"
+        ]
     },
     {
         "id": 24,
@@ -357,7 +449,14 @@
             "'this' refers to the function that is currently executing"
         ],
         "correctAnswer": 1,
-        "explanation": "The value of 'this' is determined by how a function is called. It’s a reference to the object that the function is a method of. If the function is not a method of an object, 'this' refers to the global object (in a browser, it’s window)."
+        "explanation": "The value of 'this' is determined by how a function is called. It’s a reference to the object that the function is a method of. If the function is not a method of an object, 'this' refers to the global object (in a browser, it’s window).",
+        "difficulty": "hard",
+        "topic": "Context",
+        "estimatedTime": "4 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this"
+        ]
     },
     {
         "id": 25,
@@ -369,7 +468,14 @@
             "A property that allows objects to inherit properties from another object"
         ],
         "correctAnswer": 3,
-        "explanation": "The prototype is a property of a constructor function that sets what will become the `__proto__` property on the constructed object instances. It allows objects to inherit properties from another object."
+        "explanation": "The prototype is a property of a constructor function that sets what will become the `__proto__` property on the constructed object instances. It allows objects to inherit properties from another object.",
+        "difficulty": "medium",
+        "topic": "Objects",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain"
+        ]
     },
     {
         "id": 26,
@@ -381,7 +487,14 @@
             "A function that can be called only once"
         ],
         "correctAnswer": 0,
-        "explanation": "An IIFE is a function that runs as soon as it is defined. The syntax looks like this `(function(){ /* code */ })()`. The primary reason to use an IIFE is to obtain data privacy because any variables declared within the IIFE cannot be accessed by the outside world."
+        "explanation": "An IIFE is a function that runs as soon as it is defined. The syntax looks like this `(function(){ /* code */ })()`. The primary reason to use an IIFE is to obtain data privacy because any variables declared within the IIFE cannot be accessed by the outside world.",
+        "difficulty": "medium",
+        "topic": "Functions",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Glossary/IIFE"
+        ]
     },
     {
         "id": 27,
@@ -393,7 +506,14 @@
             "It permanently binds a function to an object"
         ],
         "correctAnswer": 1,
-        "explanation": "The apply() method calls a function with a given `this` value, and arguments provided as an array (or an array-like object)."
+        "explanation": "The apply() method calls a function with a given `this` value, and arguments provided as an array (or an array-like object).",
+        "difficulty": "medium",
+        "topic": "Functions",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply"
+        ]
     },
     {
         "id": 28,
@@ -405,7 +525,14 @@
             "It invokes a function with a set delay"
         ],
         "correctAnswer": 0,
-        "explanation": "The call() method calls a function with a given `this` value and arguments provided individually."
+        "explanation": "The call() method calls a function with a given `this` value and arguments provided individually.",
+        "difficulty": "medium",
+        "topic": "Functions",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call"
+        ]
     },
     {
         "id": 29,
@@ -417,7 +544,14 @@
             "apply() is used for synchronous functions; call() is used for asynchronous functions"
         ],
         "correctAnswer": 2,
-        "explanation": "The difference is that call() accepts an argument list, while apply() accepts a single array of arguments."
+        "explanation": "The difference is that call() accepts an argument list, while apply() accepts a single array of arguments.",
+        "difficulty": "medium",
+        "topic": "Functions",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply"
+        ]
     },
     {
         "id": 30,
@@ -429,7 +563,14 @@
             "It sets up a function to run only once"
         ],
         "correctAnswer": 1,
-        "explanation": "The bind() method creates a new function that, when called, has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called."
+        "explanation": "The bind() method creates a new function that, when called, has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.",
+        "difficulty": "medium",
+        "topic": "Functions",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"
+        ]
     },
     {
         "id": 31,
@@ -441,7 +582,14 @@
             "A programming style where programs are made up of interdependent functions; JavaScript supports asynchronous programming"
         ],
         "correctAnswer": 1,
-        "explanation": "Functional Programming (FP) is a programming paradigm where programs are constructed by applying and composing functions. JavaScript supports FP because it has the ability to use functions as first-class objects, support closures, and support higher-order functions."
+        "explanation": "Functional Programming (FP) is a programming paradigm where programs are constructed by applying and composing functions. JavaScript supports FP because it has the ability to use functions as first-class objects, support closures, and support higher-order functions.",
+        "difficulty": "hard",
+        "topic": "Functions",
+        "estimatedTime": "5 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
+        ]
     },
     {
         "id": 32,
@@ -453,7 +601,14 @@
             "Functions that cannot be nested within other functions"
         ],
         "correctAnswer": 0,
-        "explanation": "Higher Order Functions are functions that take one or more functions as arguments, return a function as a result, or both. They are a key part of functional programming and provide a powerful abstraction mechanism."
+        "explanation": "Higher Order Functions are functions that take one or more functions as arguments, return a function as a result, or both. They are a key part of functional programming and provide a powerful abstraction mechanism.",
+        "difficulty": "medium",
+        "topic": "Functions",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions"
+        ]
     },
     {
         "id": 33,
@@ -465,7 +620,14 @@
             "Because they are the highest-level data types in JavaScript"
         ],
         "correctAnswer": 0,
-        "explanation": "In JavaScript, functions are considered first-class objects because they can have properties and methods, they can be assigned to variables, they can be passed as arguments to other functions, and they can also be returned from other functions."
+        "explanation": "In JavaScript, functions are considered first-class objects because they can have properties and methods, they can be assigned to variables, they can be passed as arguments to other functions, and they can also be returned from other functions.",
+        "difficulty": "medium",
+        "topic": "Functions",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function"
+        ]
     },
     {
         "id": 34,
@@ -477,7 +639,14 @@
             "Using the forEach() method and modifying the original array"
         ],
         "correctAnswer": 0,
-        "explanation": "You can implement the Array.prototype.map method by using a for loop to iterate over the array and push the results of a callback function to a new array."
+        "explanation": "You can implement the Array.prototype.map method by using a for loop to iterate over the array and push the results of a callback function to a new array.",
+        "difficulty": "hard",
+        "topic": "Array Methods",
+        "estimatedTime": "5 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
+        ]
     },
     {
         "id": 35,
@@ -489,7 +658,14 @@
             "Using a while loop and modifying the original array"
         ],
         "correctAnswer": 0,
-        "explanation": "You can implement the Array.prototype.filter method by using a for loop to iterate over the array and push elements that pass a test (return true) to a new array."
+        "explanation": "You can implement the Array.prototype.filter method by using a for loop to iterate over the array and push elements that pass a test (return true) to a new array.",
+        "difficulty": "hard",
+        "topic": "Array Methods",
+        "estimatedTime": "5 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"
+        ]
     },
     {
         "id": 36,
@@ -501,7 +677,14 @@
             "Using a while loop and returning an object"
         ],
         "correctAnswer": 0,
-        "explanation": "You can implement the Array.prototype.reduce method by using a for loop to iterate over the array and accumulate the results into a single value."
+        "explanation": "You can implement the Array.prototype.reduce method by using a for loop to iterate over the array and accumulate the results into a single value.",
+        "difficulty": "hard",
+        "topic": "Array Methods",
+        "estimatedTime": "5 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce"
+        ]
     },
     {
         "id": 37,
@@ -513,7 +696,14 @@
             "An array-like object that contains the values of the arguments passed to a function"
         ],
         "correctAnswer": 3,
-        "explanation": "The arguments object is an array-like object accessible inside all non-arrow functions that contains the values of the arguments passed to that function."
+        "explanation": "The arguments object is an array-like object accessible inside all non-arrow functions that contains the values of the arguments passed to that function.",
+        "difficulty": "medium",
+        "topic": "Functions",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments"
+        ]
     },
     {
         "id": 38,
@@ -525,7 +715,14 @@
             "Using `Object.noProto()`"
         ],
         "correctAnswer": 1,
-        "explanation": "You can create an object without a prototype in JavaScript using `Object.create(null)`."
+        "explanation": "You can create an object without a prototype in JavaScript using `Object.create(null)`.",
+        "difficulty": "hard",
+        "topic": "Objects",
+        "estimatedTime": "4 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create"
+        ]
     },
     {
         "id": 39,
@@ -537,7 +734,14 @@
             "Because `b` is a string"
         ],
         "correctAnswer": 0,
-        "explanation": "In JavaScript, if you assign a value to a variable that has not been declared, it will automatically become a global variable, even if it’s inside a function."
+        "explanation": "In JavaScript, if you assign a value to a variable that has not been declared, it will automatically become a global variable, even if it’s inside a function.",
+        "difficulty": "medium",
+        "topic": "JavaScript Basics",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var"
+        ]
     },
     {
         "id": 40,
@@ -549,7 +753,14 @@
             "A type of JavaScript object"
         ],
         "correctAnswer": 0,
-        "explanation": "ECMAScript (ES) is a scripting-language specification standardized by Ecma International. It is used by applications for client-side scripting on the web. JavaScript is a well-known programming language that conforms to the ECMAScript specification."
+        "explanation": "ECMAScript (ES) is a scripting-language specification standardized by Ecma International. It is used by applications for client-side scripting on the web. JavaScript is a well-known programming language that conforms to the ECMAScript specification.",
+        "difficulty": "medium",
+        "topic": "Standards",
+        "estimatedTime": "4 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources"
+        ]
     },
     {
         "id": 41,
@@ -561,7 +772,14 @@
             "`var` and `const` for variable declarations, classes, modules, and promises"
         ],
         "correctAnswer": 1,
-        "explanation": "ES6 introduced many new features to JavaScript, including `let` and `const` for variable declarations, arrow functions for shorter function syntax, classes for object-oriented programming, template literals for string interpolation, destructuring for extracting data from arrays or objects, modules for organizing code, promises for handling asynchronous operations, and the Set object for storing unique values, among others."
+        "explanation": "ES6 introduced many new features to JavaScript, including `let` and `const` for variable declarations, arrow functions for shorter function syntax, classes for object-oriented programming, template literals for string interpolation, destructuring for extracting data from arrays or objects, modules for organizing code, promises for handling asynchronous operations, and the Set object for storing unique values, among others.",
+        "difficulty": "medium",
+        "topic": "Programming Paradigms",
+        "estimatedTime": "4 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/ECMAScript_2015_support_in_Mozilla"
+        ]
     },
     {
         "id": 42,
@@ -573,7 +791,16 @@
             "`var` is function-scoped, `let` is block-scoped, and `const` is immutable"
         ],
         "correctAnswer": 1,
-        "explanation": "`var` is function-scoped, and can be redeclared and updated. `let` and `const` are block-scoped. `let` can be updated but not redeclared, while `const` cannot be updated or redeclared."
+        "explanation": "`var` is function-scoped, and can be redeclared and updated. `let` and `const` are block-scoped. `let` can be updated but not redeclared, while `const` cannot be updated or redeclared.",
+        "difficulty": "medium",
+        "topic": "JavaScript Basics",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var"
+        ]
     },
     {
         "id": 43,
@@ -585,7 +812,14 @@
             "Arrow functions are identical to regular functions"
         ],
         "correctAnswer": 0,
-        "explanation": "Arrow functions provide a shorter syntax for writing functions in JavaScript. They also do not have their own `this` value, which makes them handy when working with methods that are inside objects."
+        "explanation": "Arrow functions provide a shorter syntax for writing functions in JavaScript. They also do not have their own `this` value, which makes them handy when working with methods that are inside objects.",
+        "difficulty": "medium",
+        "topic": "Functions",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions"
+        ]
     },
     {
         "id": 44,
@@ -597,7 +831,14 @@
             "Classes are identical to objects"
         ],
         "correctAnswer": 1,
-        "explanation": "Classes are a blueprint for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes but also have some syntax and semantics that are not shared with ES5 class-like semantics."
+        "explanation": "Classes are a blueprint for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on prototypes but also have some syntax and semantics that are not shared with ES5 class-like semantics.",
+        "difficulty": "medium",
+        "topic": "Programming Paradigms",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes"
+        ]
     },
     {
         "id": 45,
@@ -609,7 +850,14 @@
             "A way to concatenate strings"
         ],
         "correctAnswer": 0,
-        "explanation": "Template literals are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them."
+        "explanation": "Template literals are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them.",
+        "difficulty": "medium",
+        "topic": "Programming Paradigms",
+        "estimatedTime": "2 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals"
+        ]
     },
     {
         "id": 46,
@@ -621,7 +869,14 @@
             "A method for copying properties from one object to another"
         ],
         "correctAnswer": 1,
-        "explanation": "Destructuring in JavaScript is a way to unpack values from arrays, or properties from objects, into distinct variables."
+        "explanation": "Destructuring in JavaScript is a way to unpack values from arrays, or properties from objects, into distinct variables.",
+        "difficulty": "medium",
+        "topic": "Objects",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment"
+        ]
     },
     {
         "id": 47,
@@ -633,7 +888,14 @@
             "A built-in way to create events"
         ],
         "correctAnswer": 0,
-        "explanation": "Modules are a way to organize and share JavaScript code. They allow you to export functions, objects, or primitive values from a file so they can be used by other programs with the import statement."
+        "explanation": "Modules are a way to organize and share JavaScript code. They allow you to export functions, objects, or primitive values from a file so they can be used by other programs with the import statement.",
+        "difficulty": "medium",
+        "topic": "Programming Paradigms",
+        "estimatedTime": "4 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
+        ]
     },
     {
         "id": 48,
@@ -645,7 +907,14 @@
             "A function for setting properties"
         ],
         "correctAnswer": 0,
-        "explanation": "The Set object lets you store unique values of any type, whether primitive values or object references. It is similar to an array, but a value in the Set may only occur once; it is unique in the Set’s collection."
+        "explanation": "The Set object lets you store unique values of any type, whether primitive values or object references. It is similar to an array, but a value in the Set may only occur once; it is unique in the Set’s collection.",
+        "difficulty": "medium",
+        "topic": "Objects",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set"
+        ]
     },
     {
         "id": 49,
@@ -657,7 +926,14 @@
             "A function that calls itself"
         ],
         "correctAnswer": 2,
-        "explanation": "A callback function is a function that is passed as an argument to another function, to be “called back” at a later time. Callbacks are often used to continue code execution after an asynchronous operation has completed."
+        "explanation": "A callback function is a function that is passed as an argument to another function, to be “called back” at a later time. Callbacks are often used to continue code execution after an asynchronous operation has completed.",
+        "difficulty": "medium",
+        "topic": "Asynchronous Programming",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Glossary/Callback_function"
+        ]
     },
     {
         "id": 50,
@@ -669,7 +945,14 @@
             "A way to avoid using callbacks"
         ],
         "correctAnswer": 1,
-        "explanation": "A Promise is an object representing the eventual completion or failure of an asynchronous operation. It serves as a link between the function that’s running and what that function will eventually return in the future."
+        "explanation": "A Promise is an object representing the eventual completion or failure of an asynchronous operation. It serves as a link between the function that’s running and what that function will eventually return in the future.",
+        "difficulty": "hard",
+        "topic": "Asynchronous Programming",
+        "estimatedTime": "4 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+        ]
     },
     {
         "id": 51,
@@ -681,7 +964,14 @@
             "A new type of function"
         ],
         "correctAnswer": 0,
-        "explanation": "async/await is a syntax sugar in JavaScript that makes working with Promises more comfortable. An async function returns a Promise, and the await keyword is used inside an async function to pause the execution until the Promise is resolved or rejected."
+        "explanation": "async/await is a syntax sugar in JavaScript that makes working with Promises more comfortable. An async function returns a Promise, and the await keyword is used inside an async function to pause the execution until the Promise is resolved or rejected.",
+        "difficulty": "medium",
+        "topic": "Asynchronous Programming",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await"
+        ]
     },
     {
         "id": 52,
@@ -693,7 +983,14 @@
             "An operator used to split strings"
         ],
         "correctAnswer": 1,
-        "explanation": "The Spread operator (...) is used to expand iterable elements into individual elements."
+        "explanation": "The Spread operator (...) is used to expand iterable elements into individual elements.",
+        "difficulty": "medium",
+        "topic": "JavaScript Basics",
+        "estimatedTime": "2 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax"
+        ]
     },
     {
         "id": 53,
@@ -705,7 +1002,14 @@
             "An operator used to merge arrays"
         ],
         "correctAnswer": 1,
-        "explanation": "The Rest operator (...) is used to condense multiple elements into a single array."
+        "explanation": "The Rest operator (...) is used to condense multiple elements into a single array.",
+        "difficulty": "medium",
+        "topic": "JavaScript Basics",
+        "estimatedTime": "2 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters"
+        ]
     },
     {
         "id": 54,
@@ -717,7 +1021,14 @@
             "Parameters that are passed by reference"
         ],
         "correctAnswer": 1,
-        "explanation": "Default Parameters in JavaScript functions allow you to set default values for parameters that are undefined."
+        "explanation": "Default Parameters in JavaScript functions allow you to set default values for parameters that are undefined.",
+        "difficulty": "easy",
+        "topic": "Functions",
+        "estimatedTime": "2 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters"
+        ]
     },
     {
         "id": 55,
@@ -729,7 +1040,14 @@
             "Objects that wrap arrays"
         ],
         "correctAnswer": 1,
-        "explanation": "Wrapper Objects in JavaScript are objects that are automatically created when a primitive data type (like a string or a number) is used like an object."
+        "explanation": "Wrapper Objects in JavaScript are objects that are automatically created when a primitive data type (like a string or a number) is used like an object.",
+        "difficulty": "medium",
+        "topic": "Objects",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object"
+        ]
     },
     {
         "id": 56,
@@ -741,7 +1059,14 @@
             "A method for rounding numbers"
         ],
         "correctAnswer": 0,
-        "explanation": "Implicit Coercion in JavaScript is the automatic conversion of a value from one data type to another."
+        "explanation": "Implicit Coercion in JavaScript is the automatic conversion of a value from one data type to another.",
+        "difficulty": "medium",
+        "topic": "Type Conversion",
+        "estimatedTime": "2 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion"
+        ]
     },
     {
         "id": 57,
@@ -753,7 +1078,14 @@
             "A method for rounding numbers"
         ],
         "correctAnswer": 1,
-        "explanation": "Explicit Coercion is when the developer intentionally changes the data type."
+        "explanation": "Explicit Coercion is when the developer intentionally changes the data type.",
+        "difficulty": "medium",
+        "topic": "Type Conversion",
+        "estimatedTime": "2 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion"
+        ]
     },
     {
         "id": 58,
@@ -765,7 +1097,14 @@
             "Number and Negative"
         ],
         "correctAnswer": 2,
-        "explanation": "NaN stands for “Not a Number”. You can use the isNaN() function to check if a value is NaN."
+        "explanation": "NaN stands for “Not a Number”. You can use the isNaN() function to check if a value is NaN.",
+        "difficulty": "easy",
+        "topic": "JavaScript Basics",
+        "estimatedTime": "2 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN"
+        ]
     },
     {
         "id": 59,
@@ -777,7 +1116,14 @@
             "Using `isArray()`"
         ],
         "correctAnswer": 1,
-        "explanation": "You can use `Array.isArray(value)` to check if a value is an Array."
+        "explanation": "You can use `Array.isArray(value)` to check if a value is an Array.",
+        "difficulty": "easy",
+        "topic": "JavaScript Basics",
+        "estimatedTime": "2 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray"
+        ]
     },
     {
         "id": 60,
@@ -789,7 +1135,14 @@
             "Using `Math.floor()`"
         ],
         "correctAnswer": 0,
-        "explanation": "To check if a number is even without using the % operator, you can use the bitwise AND operator (&). If `(num & 1) === 0`, then the number is even."
+        "explanation": "To check if a number is even without using the % operator, you can use the bitwise AND operator (&). If `(num & 1) === 0`, then the number is even.",
+        "difficulty": "medium",
+        "topic": "Bitwise Operators",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_AND"
+        ]
     },
     {
         "id": 61,
@@ -801,7 +1154,14 @@
             "Using `instanceof`"
         ],
         "correctAnswer": 0,
-        "explanation": "You can use the `in` operator or the `hasOwnProperty()` method to check if a certain property exists in an object."
+        "explanation": "You can use the `in` operator or the `hasOwnProperty()` method to check if a certain property exists in an object.",
+        "difficulty": "easy",
+        "topic": "Objects",
+        "estimatedTime": "2 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in"
+        ]
     },
     {
         "id": 62,
@@ -813,7 +1173,14 @@
             "Asynchronous JavaScript and XML; for generating dynamic styles"
         ],
         "correctAnswer": 0,
-        "explanation": "AJAX stands for Asynchronous JavaScript and XML. It’s a technique for creating fast and dynamic web pages, allowing web pages to update asynchronously by exchanging data with a web server behind the scenes."
+        "explanation": "AJAX stands for Asynchronous JavaScript and XML. It’s a technique for creating fast and dynamic web pages, allowing web pages to update asynchronously by exchanging data with a web server behind the scenes.",
+        "difficulty": "medium",
+        "topic": "Asynchronous Programming",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX"
+        ]
     },
     {
         "id": 63,
@@ -825,7 +1192,14 @@
             "Object literal syntax, `new` keyword with a function, and `Object.defineProperty()`"
         ],
         "correctAnswer": 0,
-        "explanation": "In JavaScript, you can create objects using object literal syntax, `new` keyword with a constructor function, and the `Object.create()` method."
+        "explanation": "In JavaScript, you can create objects using object literal syntax, `new` keyword with a constructor function, and the `Object.create()` method.",
+        "difficulty": "medium",
+        "topic": "Objects",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects"
+        ]
     },
     {
         "id": 64,
@@ -837,7 +1211,15 @@
             "`Object.seal()` prevents any properties from being added, changed, or deleted; `Object.freeze()` only prevents new properties from being added."
         ],
         "correctAnswer": 0,
-        "explanation": "`Object.seal()` prevents new properties from being added to an object and marks all existing properties as non-configurable. However, the values of existing properties can still be changed. `Object.freeze()` makes an object immutable by preventing properties from being added, changing property attributes, or deleting properties, and it also prevents any existing properties from being changed."
+        "explanation": "`Object.seal()` prevents new properties from being added to an object and marks all existing properties as non-configurable. However, the values of existing properties can still be changed. `Object.freeze()` makes an object immutable by preventing properties from being added, changing property attributes, or deleting properties, and it also prevents any existing properties from being changed.",
+        "difficulty": "hard",
+        "topic": "Objects",
+        "estimatedTime": "4 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal",
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze"
+        ]
     },
     {
         "id": 65,
@@ -849,7 +1231,14 @@
             "The `in` operator checks if a property exists in an array; `hasOwnProperty` checks if a property exists in an object."
         ],
         "correctAnswer": 0,
-        "explanation": "The `in` operator checks if a property exists in an object or its prototype chain. `hasOwnProperty` checks if a property exists only on the object itself, not on its prototype chain."
+        "explanation": "The `in` operator checks if a property exists in an object or its prototype chain. `hasOwnProperty` checks if a property exists only on the object itself, not on its prototype chain.",
+        "difficulty": "medium",
+        "topic": "Objects",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty"
+        ]
     },
     {
         "id": 66,
@@ -861,7 +1250,14 @@
             "Using Promises and Observables"
         ],
         "correctAnswer": 0,
-        "explanation": "Asynchronous code in JavaScript can be handled using Callbacks, Promises, and Async/Await. These techniques allow for better control over the execution flow and handling of asynchronous operations."
+        "explanation": "Asynchronous code in JavaScript can be handled using Callbacks, Promises, and Async/Await. These techniques allow for better control over the execution flow and handling of asynchronous operations.",
+        "difficulty": "hard",
+        "topic": "Asynchronous Programming",
+        "estimatedTime": "4 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing"
+        ]
     },
     {
         "id": 67,
@@ -873,7 +1269,14 @@
             "Neither function declarations nor function expressions are hoisted."
         ],
         "correctAnswer": 0,
-        "explanation": "A function declaration defines a function with the specified parameters and is hoisted to the top of its scope. A function expression is a function defined as part of a larger expression syntax (typically a variable assignment). Function expressions are not hoisted."
+        "explanation": "A function declaration defines a function with the specified parameters and is hoisted to the top of its scope. A function expression is a function defined as part of a larger expression syntax (typically a variable assignment). Function expressions are not hoisted.",
+        "difficulty": "medium",
+        "topic": "Functions",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function"
+        ]
     },
     {
         "id": 68,
@@ -885,7 +1288,14 @@
             "A function can be invoked only using `call()` and `apply()`."
         ],
         "correctAnswer": 0,
-        "explanation": "A function can be invoked in several ways: as a function, as a method, as a constructor, and indirectly using `call()` and `apply()`."
+        "explanation": "A function can be invoked in several ways: as a function, as a method, as a constructor, and indirectly using `call()` and `apply()`.",
+        "difficulty": "medium",
+        "topic": "Functions",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call"
+        ]
     },
     {
         "id": 69,
@@ -897,7 +1307,14 @@
             "Memoization is a technique that automatically caches all the variables in a program."
         ],
         "correctAnswer": 0,
-        "explanation": "Memoization is a programming technique used to optimize computer programs by storing the results of expensive function calls and reusing them when the same inputs occur again. It's useful for improving the performance of functions that perform heavy computations."
+        "explanation": "Memoization is a programming technique used to optimize computer programs by storing the results of expensive function calls and reusing them when the same inputs occur again. It's useful for improving the performance of functions that perform heavy computations.",
+        "difficulty": "hard",
+        "topic": "Optimization",
+        "estimatedTime": "4 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/memoize"
+        ]
     },
     {
         "id": 70,
@@ -909,7 +1326,14 @@
             "`typeof null` returns `'object'`; you can check if a value is null using loose equality (`==`)."
         ],
         "correctAnswer": 2,
-        "explanation": "`typeof null` returns `'object'` due to a bug in ECMAScript's original implementation. You can check if a value is `null` using strict equality (`===`) or loose equality (`==`)."
+        "explanation": "`typeof null` returns `'object'` due to a bug in ECMAScript's original implementation. You can check if a value is `null` using strict equality (`===`) or loose equality (`==`).",
+        "difficulty": "medium",
+        "topic": "JavaScript Basics",
+        "estimatedTime": "2 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
+        ]
     },
     {
         "id": 71,
@@ -921,6 +1345,13 @@
             "The `new` keyword creates a new object and immediately seals it, preventing any further modifications."
         ],
         "correctAnswer": 0,
-        "explanation": "The `new` keyword in JavaScript creates an instance of a user-defined object type or of one of the built-in object types. It does this by creating a new object, setting the prototype of the new object to the constructor's prototype, and then calling the constructor function with the newly created object as its context (`this`)."
+        "explanation": "The `new` keyword in JavaScript creates an instance of a user-defined object type or of one of the built-in object types. It does this by creating a new object, setting the prototype of the new object to the constructor's prototype, and then calling the constructor function with the newly created object as its context (`this`).",
+        "difficulty": "medium",
+        "topic": "Objects",
+        "estimatedTime": "3 minutes",
+        "importance": "core",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new"
+        ]
     }
 ]
