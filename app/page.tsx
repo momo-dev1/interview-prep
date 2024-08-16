@@ -30,14 +30,16 @@ export default function Home() {
     router.push("/quiz");
   };
 
+  const sortedTopics = Object.entries(topicCounts).sort((a, b) => b[1] - a[1]);
+
   return (
     <main className="min-h-screen bg-gradient-to-br from-purple-500 to-indigo-600 py-8">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-white mb-8 text-center">
           Select a Topic
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 bg-white p-10 border rounded-lg">
-          {Object.entries(topicCounts).map(([topic, count]) => (
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 bg-white p-10 border rounded-lg">
+          {sortedTopics.map(([topic, count]) => (
             <div
               key={topic}
               className="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer transform transition duration-300 hover:scale-105 border"

@@ -29,16 +29,20 @@ export default function QuizReview() {
         Quiz Review: {filteredTopic}
       </h2>
 
-      <div className="flex items-center justify-between w-full">
-        <h3 className="text-xl font-semibold mt-6 mb-4">Incorrect Answers:</h3>
-        <p className="text-lg font-semibold">
-          {topicAnswers.length - incorrectAnswers.length} /{" "}
-          {topicAnswers.length}
-        </p>
-      </div>
+      {incorrectAnswers.length > 0 && (
+        <div className="flex items-center justify-between w-full">
+          <h3 className="text-xl font-semibold mt-6 mb-4">
+            Incorrect Answers:
+          </h3>
+          <p className="text-lg font-semibold">
+            {topicAnswers.length - incorrectAnswers.length} /{" "}
+            {topicAnswers.length}
+          </p>
+        </div>
+      )}
 
       {incorrectAnswers.length === 0 ? (
-        <p className="text-green-600 font-semibold">
+        <p className="text-green-600 font-semibold text-center">
           Congratulations! You got all questions correct!
         </p>
       ) : (
